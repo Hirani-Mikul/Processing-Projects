@@ -1,0 +1,23 @@
+I.3: Gaussian Distribution - The Nature of Code
+
+About the Gaussian Distribution.
+- Show result as you wanted by choosing the Mean and Standard Deviation
+- Mean descibes the most population.
+- Standard Deviation is about spreading the value over a long spread, over laying.
+
+
+I.4: Custom Distribution - The Nature of Code
+
+Example:
+
+let random1 = random(0, 100);
+let random2 = random(0, 100);
+
+let y = random1 * random1;
+
+if (random2 < y) {
+   execute code;
+} else {
+   go back and loop again and find the number that satisfy the condition.
+   or skip the this code execution;
+}
